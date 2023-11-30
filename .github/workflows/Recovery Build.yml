@@ -25,11 +25,11 @@ on:
         default: 'device/xiaomi/renoir'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: true
+        required: false
         default: 'https://github.com/Szkudnik7/android_device_xiaomi_sm8350-common'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: true
+        required: false
         default: 'android/device/xiaomi/sm8350-common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
